@@ -29,7 +29,7 @@ Before Docker, applications are deployed manually.
 
 Steps required:
 
-1. Install Node.js
+1. Install Node.js ( https://nodejs.org/en/download )
 2. Install npm
 3. Clone project code
 4. Install dependencies
