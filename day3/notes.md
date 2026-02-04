@@ -86,37 +86,92 @@ Instead of installing software manually:
 > Dockerizing means creating a Docker image that contains application code, runtime environment and dependencies so that application can run inside a container.
 
 ---
+## What is Dockerfile?
 
-# 4️⃣ Dockerfile → Image → Container Flow
+### Definition:
 
-Important concept to revise:
-
-```
-Dockerfile → Docker Image → Docker Container
-```
+> **Dockerfile is a text file that contains instructions to build a Docker image.**
 
 ---
 
-### Dockerfile
+### Dockerfile Is Used To:
 
-* Instruction file
-* Tells Docker how to build image
-
----
-
-### Image
-
-* Static template
-* Built from Dockerfile
+✔ Define base image
+✔ Install dependencies
+✔ Copy application code
+✔ Set startup command
 
 ---
 
-### Container
+### Example Concept:
 
-* Running instance of image
-* Actual application execution
+Dockerfile is like a:
+
+> **Recipe for building an image**
 
 ---
+
+## What is Docker Image?
+
+### Definition:
+
+> **Docker Image is a read-only template created from Dockerfile that contains application code, runtime and dependencies.**
+
+---
+
+### Image Characteristics:
+
+✔ Static
+✔ Cannot execute by itself
+✔ Used to create containers
+✔ Stored locally or in registry
+
+---
+
+### Example Concept:
+
+Docker Image is like:
+
+> **Application package**
+
+---
+
+## What is Docker Container?
+
+### Definition:
+
+> **Docker Container is a running instance of a Docker image.**
+
+---
+
+### Container Characteristics:
+
+✔ Actually runs application
+✔ Uses CPU and RAM
+✔ Can be started and stopped
+✔ Created from image
+
+---
+
+### Example Concept:
+
+Container is like:
+
+> **Running application process**
+
+---
+
+# 2️⃣ Dockerfile vs Image vs Container (Difference)
+
+| Feature    | Dockerfile       | Image                | Container           |
+| ---------- | ---------------- | -------------------- | ------------------- |
+| What it is | Instruction file | Application template | Running application |
+| State      | Text file        | Static               | Running             |
+| Used for   | Build image      | Create container     | Execute app         |
+| Editable   | Yes              | No                   | Runtime state       |
+| Example    | Recipe           | Cake mix             | Baked cake          |
+
+
 
 # 🧩 PART 1 — Dockerizing a React Frontend Application
 
