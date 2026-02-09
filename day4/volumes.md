@@ -1,9 +1,12 @@
 python -m venv myenv
 myenv\Scripts\activate.ps1  # Windows PowerShell
 
-pip install fastapi uvicorn
+wsl/gitbash source venv/bin/activate
+
+pip install -r requirements.txt
 
 uvicorn main:app --reload
+
 
 
 #how to login to a container
