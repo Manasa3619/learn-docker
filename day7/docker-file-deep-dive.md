@@ -379,17 +379,5 @@ CMD/ENTRYPOINT executed
 
 ---
 
-#  Final Key Understanding
 
-Dockerfile prepares environment
-Container runs application
 
----
-
-#  One-Line Summary
-
-Dockerfile defines how to build an application environment in a reproducible way.
-
----
-
-These notes cover all core Dockerfile concepts students need before advanced orchestration.
